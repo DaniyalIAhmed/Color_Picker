@@ -8,7 +8,7 @@ const AboutDev = ({ isDarkMode, tintColor }) => {
     Linking.openURL(url).catch((err) => console.error("Failed to open URL", err));
   };
   const openRepLink = () => {
-    const url = "https://github.com/DaniyalIAhmed";
+    const url = "https://github.com/DaniyalIAhmed/Color_Picker";
     Linking.openURL(url).catch((err) => console.error("Failed to open URL", err));
   };
 
